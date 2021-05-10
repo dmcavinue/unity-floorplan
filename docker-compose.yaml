@@ -1,0 +1,9 @@
+version: '3.8'
+
+services: 
+  nginx:
+    image: unity-floorplan:0.0.1
+    build:
+      context: .
+    ports:
+      - "8080:80"
